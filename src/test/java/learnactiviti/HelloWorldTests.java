@@ -100,12 +100,12 @@ public class HelloWorldTests {
 		
 		//
 		//启动流程： 99.99% 业务主键 businessKey
-		String businessKey = "20170923";
+		String businessKey = "20170923-3";
 		
 		//添加额外的参数 供整个流程去使用(从流程开始到结束 整个时间范围内都可以获取)
 		Map<String, Object> variables = new HashMap<String, Object>();
-		variables.put("param1", "abc");
-		variables.put("param2", "efg");
+		variables.put("param1", "ijk");
+		variables.put("param2", "lmn");
 		
 		//启动流程
 		//设置流程的发起人:  //注意 在bpmn的 start节点里 要进行设置: activiti:initiator="applyuser"
@@ -156,7 +156,7 @@ public class HelloWorldTests {
 			//把你的业务完成了以后,最后要推进工作流继续向下执行 [同意/不同意]
 			
 			Map<String, Object> variables = new HashMap<String, Object>();
-			variables.put("info", "又同意了");
+			variables.put("info", "同意了");
 			
 			//绑定跟当前这个任务相关的参数信息: 
 			this.taskService.setVariablesLocal(task.getId(), variables);
