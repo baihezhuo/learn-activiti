@@ -13,7 +13,14 @@ import org.activiti.bpmn.model.ServiceTask;
 import org.activiti.bpmn.model.StartEvent;
 import org.activiti.bpmn.model.UserTask;
 import org.apache.commons.lang3.StringUtils;
-
+/**
+ * <B>系统名称：</B><BR>
+ * <B>模块名称：</B><BR>
+ * <B>中文类名：</B><BR>
+ * <B>概要说明：</B><BR>
+ * @author bhz
+ * @since 2017年12月13日 上午11:17:11
+ */
 public class BpmnCreaterUtil {
 	 
 	/**
