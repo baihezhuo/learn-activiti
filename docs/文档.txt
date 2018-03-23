@@ -6,3 +6,4 @@
 5、review change
 6、继续内容
 7、20171226+++
+8、git reset --hard 
